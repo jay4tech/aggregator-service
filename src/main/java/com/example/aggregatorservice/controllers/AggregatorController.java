@@ -26,4 +26,5 @@ public class AggregatorController {
         Payment payment = paymentClient.getPaymentByOrderId(id);
         return new AggregateData(order, payment);
     }
+
 }

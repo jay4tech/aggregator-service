@@ -8,4 +8,5 @@ import lombok.Data;
 public class AggregateData {
     private Orders order;
     private Payment payment;
+
 }

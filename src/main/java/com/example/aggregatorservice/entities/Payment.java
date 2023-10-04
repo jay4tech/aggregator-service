@@ -8,4 +8,5 @@ import lombok.Data;
 public class Payment {
     private Integer orderId;
     private String status;
+
 }
